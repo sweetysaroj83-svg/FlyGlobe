@@ -1,0 +1,78 @@
+body.bg{
+    margin:0;
+    font-family:Arial;
+    background:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e')
+    no-repeat center center/cover;
+    background-size:cover;
+    height:100vh;
+    color:white;
+}
+
+.overlay{
+    width:100%;
+    height:100vh;
+    background:rgba(0,0,0,0.3);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+}
+
+.left h1{
+    font-size:60px;
+}
+
+.left p{
+    font-size:22px;
+}
+
+.glass-card,
+.result-card{
+    width:420px;
+    padding:25px;
+    border-radius:20px;
+    backdrop-filter:blur(12px);
+    background:rgba(255,255,255,0.2);
+    box-shadow:0 8px 32px rgba(0,0,0,0.3);
+}
+
+input{
+    width:100%;
+    margin:10px 0;
+    padding:12px;
+    border:none;
+    border-radius:10px;
+    font-size:15px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:10px;
+    background:#ff7e5f;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.result-card{
+    max-height:85vh;
+    overflow-y:auto;
+}
+
+.buttons{
+    margin-top:20px;
+}
+
+.buttons button{
+    margin-top:10px;
+}
+
+.map-frame{
+    width:550px;
+    height:600px;
+    border:none;
+    border-radius:20px;
+    box-shadow:0 8px 32px rgba(0,0,0,0.3);
+}
